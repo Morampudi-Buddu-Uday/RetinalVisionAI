@@ -1,5 +1,5 @@
 📌 README.md – RetinalVisionAI: Deep Learning-Based Retinal Disease Detection
-<div align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Retina_diabetic_retinopathy.jpg/640px-Retina_diabetic_retinopathy.jpg" width="60%" alt="Diabetic Retinopathy Retina"> </div>
+>
 🧠 Overview
 RetinalVisionAI is a deep learning-based web app that automates the detection of two major causes of vision loss:
 
