@@ -11,7 +11,7 @@ import os
 from PIL import Image
 
 # 2. Model Loading
-model = load_model("efficientnet_finetuned.h5")  # Path to your fine-tuned model
+model = load_model(r"C:\Users\uday\OneDrive\Desktop\Btech\Major_proj\UI\Models\efficientnet_finetuned.h5")  # Path to your fine-tuned model
 
 # 3. Data Preprocessing (based on your preprocessing)
 IMG_SIZE = 224  # This should match the image size used during training (check the `IMG_SIZE` in your training code)
@@ -37,7 +37,7 @@ def preprocess_image(image_path):
     return img_array
 
 # 4. Passing the test image into the model
-test_image_path = "DR_images/image3.png"  # Path to your test image
+test_image_path = r"C:\Users\uday\OneDrive\Desktop\Btech\Major_proj\UI\Test Images\DR_images\image3.png"  # Path to your test image
 
 # Preprocess the image
 processed_image = preprocess_image(test_image_path)

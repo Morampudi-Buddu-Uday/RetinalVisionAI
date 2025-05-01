@@ -11,8 +11,8 @@ import json
 import os
 
 # Load models
-DR_model = load_model("efficientnet_finetuned.h5")  # Diabetic Retinopathy model
-Glaucoma_model = load_model("g_efficientnet_model.h5")  # Glaucoma model
+DR_model = load_model(r"C:\Users\uday\OneDrive\Desktop\Btech\Major_proj\UI\Models\efficientnet_finetuned.h5")  # Diabetic Retinopathy model
+Glaucoma_model = load_model(r"C:\Users\uday\OneDrive\Desktop\Btech\Major_proj\UI\Models\g_efficientnet_model.h5")  # Glaucoma model
 
 # Constants
 IMG_SIZE = 224
@@ -49,8 +49,8 @@ def load_lottiefile(filepath):
         return json.load(f)
 
 # Load animations
-animation_main = load_lottiefile("Animation - 1741093748053.json")
-animation_buffering = load_lottiefile("Animation - 1741094290527.json")
+animation_main = load_lottiefile(r"C:\Users\uday\OneDrive\Desktop\Btech\Major_proj\UI\Animations\Animation - 1741093748053.json")
+animation_buffering = load_lottiefile(r"C:\Users\uday\OneDrive\Desktop\Btech\Major_proj\UI\Animations\Animation - 1741094290527.json")
 
 # Streamlit UI
 st.set_page_config(page_title="Retinal Blindness Detection", layout="centered")
